@@ -1,0 +1,121 @@
+import { Doctor } from '../types';
+
+export const mockDoctors: Doctor[] = [
+  {
+    id: '1',
+    name: 'Dr. Ayesha Khan',
+    specialty: 'Orthopedic',
+    location: 'Hyderabad',
+    price: 1030,
+    rating: 4.6,
+    experience: 14,
+    availableDate: '2025-07-28',
+    timeSlot: '17:30',
+    image: 'https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=400',
+    consultationFee: 1030
+  },
+  {
+    id: '2',
+    name: 'Dr. Ravi Verma',
+    specialty: 'Cardiologist',
+    location: 'Mumbai',
+    price: 1742,
+    rating: 4.4,
+    experience: 10,
+    availableDate: '2025-07-29',
+    timeSlot: '17:30',
+    image: 'https://images.pexels.com/photos/612608/pexels-photo-612608.jpeg?auto=compress&cs=tinysrgb&w=400',
+    consultationFee: 1742
+  },
+  {
+    id: '3',
+    name: 'Dr. Neha Singh',
+    specialty: 'Psychiatrist',
+    location: 'Ahmedabad',
+    price: 1143,
+    rating: 4.8,
+    experience: 20,
+    availableDate: '2025-07-28',
+    timeSlot: '17:30',
+    image: 'https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400',
+    consultationFee: 1143
+  },
+  {
+    id: '4',
+    name: 'Dr. Sarah Joy',
+    specialty: 'Cardiologist',
+    location: 'Delhi',
+    price: 1150,
+    rating: 4.8,
+    experience: 15,
+    availableDate: '2025-07-30',
+    timeSlot: '16:30',
+    image: 'https://images.pexels.com/photos/5452268/pexels-photo-5452268.jpeg?auto=compress&cs=tinysrgb&w=400',
+    consultationFee: 1150
+  },
+  {
+    id: '5',
+    name: 'Dr. Jas Roy',
+    specialty: 'Dermatologist',
+    location: 'Bangalore',
+    price: 1120,
+    rating: 4.9,
+    experience: 12,
+    availableDate: '2025-07-31',
+    timeSlot: '14:30',
+    image: 'https://images.pexels.com/photos/582750/pexels-photo-582750.jpeg?auto=compress&cs=tinysrgb&w=400',
+    consultationFee: 1120
+  },
+  {
+    id: '6',
+    name: 'Dr. Emily Rodriguez',
+    specialty: 'Pediatrician',
+    location: 'Chennai',
+    price: 1100,
+    rating: 4.7,
+    experience: 10,
+    availableDate: '2025-08-01',
+    timeSlot: '10:30',
+    image: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=400',
+    consultationFee: 1100
+  },
+  {
+    id: '7',
+    name: 'Dr. James Wilson',
+    specialty: 'Orthopedic Surgeon',
+    location: 'Pune',
+    price: 1200,
+    rating: 4.9,
+    experience: 18,
+    availableDate: '2025-08-02',
+    timeSlot: '11:30',
+    image: 'https://images.pexels.com/photos/612608/pexels-photo-612608.jpeg?auto=compress&cs=tinysrgb&w=400',
+    consultationFee: 1200
+  },
+  {
+    id: '8',
+    name: 'Dr. Lisa Thompson',
+    specialty: 'Gynecologist',
+    location: 'Kolkata',
+    price: 1130,
+    rating: 4.6,
+    experience: 14,
+    availableDate: '2025-08-03',
+    timeSlot: '15:30',
+    image: 'https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400',
+    consultationFee: 1130
+  },
+  {
+    id: '9',
+    name: 'Dr. Robert Kumar',
+    specialty: 'Neurologist',
+    location: 'Jaipur',
+    price: 1180,
+    rating: 4.8,
+    experience: 16,
+    availableDate: '2025-08-04',
+    timeSlot: '09:30',
+    image: 'https://images.pexels.com/photos/582750/pexels-photo-582750.jpeg?auto=compress&cs=tinysrgb&w=400',
+    consultationFee: 1180
+  }
+];
